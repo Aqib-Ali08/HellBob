@@ -1,5 +1,5 @@
 *{
-    background-color: bisque;
+    background-color: #82d0df;
 }
 
 
@@ -8,9 +8,16 @@ section{
     gap: 300px;
 }
 
-.formss input{
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    width: 250px;
     height: 35px;
-    width: 200px;
     border: 2px solid black;
 }
 
