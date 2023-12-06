@@ -1,0 +1,31 @@
+*{
+    background-color: bisque;
+}
+
+
+section{
+    display: flex;
+    gap: 300px;
+}
+
+.formss input{
+    height: 35px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.formss{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    width: 500px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
