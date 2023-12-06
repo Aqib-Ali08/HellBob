@@ -1,0 +1,38 @@
+*{
+    background-color: #82d0df;
+}
+
+
+section{
+    display: flex;
+    gap: 300px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    border: 2px solid black;
+}
+
+.formss{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    width: 500px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
