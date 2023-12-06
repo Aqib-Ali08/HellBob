@@ -1,15 +1,23 @@
+*{
+  background-color: #5656cf;
+  font-family: sans-serif;
+}
+
 .login-box {
   height: 400px;
   width: 800px;
   background-color: aqua;
-  margin: 160px;
+  margin: auto;
+  background-color: #00d4ff;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 label {
-  display: inline-block;
+  display:inline-table;
   width: 290px;
   text-align: right;
   margin-right: 10px;
+  background-color: #00d4ff;
 }
 
 input {
@@ -17,6 +25,7 @@ input {
   height: 30px;
   width: 200px;
   border: 2px solid black;
+  background-color: #00d4ff;
 }
 
 button{
@@ -26,7 +35,14 @@ button{
     background-color:#9c9ad9 ;
 }
 
+form{
+  background-color: #00d4ff;
+}
 
-h2{
-    text-align: center;
+span{
+  background-color: #00d4ff;
+  display: flex;
+  justify-content: center;
+  font-size: 27px;
+  font-weight: bold;
 }

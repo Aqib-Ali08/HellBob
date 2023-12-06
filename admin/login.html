@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style_login.css"/>
-</head>
-<body>
-    <section class="page">
-        <label ></label>
+    <link rel="stylesheet" href="style_login.css" />
+  </head>
+  <body>
+    <section class="login-box">
+        <span>Login</span>
+        <div class="username">
+        <form action="your_login_process_script.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required></form>
+        </div>
+
+            <div class="password">
+            <form action="your_login_process_script.php" method="post">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+      
+            <button type="submit">Login</button></form>
+        </div>
     </section>
-</body>
+  </body>
 </html>
