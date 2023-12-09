@@ -1,3 +1,12 @@
+<?php
+
+
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Information Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
@@ -57,10 +66,19 @@
         <label for="image">Image:</label>
         <input type="file" id="image" name="image" accept="image/*"><br>
 
-        <label for="imageVariable1">Image if variable 1:</label>
-        <input type="file" id="imageVariable1" name="imageVariable1" accept="image/*"><br>
-        <label for="imageVariable2">Image if variable 2:</label>
-        <input type="file" id="imageVariable2" name="imageVariable2" accept="image/*"><br>
+        <label for="imageVariable1">Image path 1:</label>
+        <input type="text" id="imageVariable1" name="imageVariable1" required><br>
+
+        <label for="imageVariable2">Image path 2:</label>
+        <input type="text" id="imageVariable2" name="imageVariable2" required><br>
+
+        <label for="imageVariable3">Image path 3:</label>
+        <input type="text" id="imageVariable3" name="imageVariable3" required><br>
+
+        <label for="imageVariable4">Image path 4:</label>
+        <input type="text" id="imageVariable4" name="imageVariable4" required><br>
+
+
         <label for="folderURL">Folder URL:</label>
         <input type="url" id="folderURL" name="folderURL" required><br>
 
