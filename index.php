@@ -3,7 +3,7 @@ session_start();
 include('config/db.php');
 $request_uri = $_SERVER['REQUEST_URI'];
 $routes = [
-    '/' => 'public/index.php',
+    '/' => 'public/homepage.php',
     '/product' => 'public/product.php',
     '/cart' => 'public/cart.php',
     '/checkout' => 'public/checkout.php',

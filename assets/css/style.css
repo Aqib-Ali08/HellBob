@@ -84,5 +84,19 @@ input[type="submit"]:hover {
 textarea {
     resize: vertical;
 }
+/* Add this to your existing CSS */
+.sucessmessage {
+    color: #4CAF50;
+    background-color: #DFF2BF;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    position: absolute;
+    top: 20px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 /* Add more styles as needed */
